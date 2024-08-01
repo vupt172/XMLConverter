@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHI_TIEU_DU_LIEU_TOM_TAT_HO_SO_BENH_AN>
+    <MA_LK>24.013209</MA_LK>
+    <MA_LOAI_KCB>03</MA_LOAI_KCB>
+    <HO_TEN_CHA />
+    <HO_TEN_ME>nguyễn thị tuyết kha</HO_TEN_ME>
+    <NGUOI_GIAM_HO />
+    <DON_VI />
+    <NGAY_VAO>202406302211</NGAY_VAO>
+    <NGAY_RA>202407081000</NGAY_RA>
+    <CHAN_DOAN_VAO>viêm mũi họng cấp/td sốt xuất huyết dengue</CHAN_DOAN_VAO>
+    <CHAN_DOAN_RV> viêm thanh quản cấp/viêm mũi họng cấp/sốt siêu vi/td sốt xuất huyết/rối loạn tiêu hóa</CHAN_DOAN_RV>
+    <QT_BENHLY>trẻ ở nhà sốt #1 ngày, sốt cao liên tục kèm ho, chảy mũi, có dùng thuốc nhưng không giảm=&gt; vào viện
+        tỉnh tiếp xúc được, da niêm hồng, họng đỏ, khe mũi đọng dịch, đi cầu phân lỏng # 1 ngày, tim đều, phổi không ralse, bụng mềm
+        điều trị: kháng sinh, chống viêm, giảm triệu chứng
+        qua 8 ngày điều trị tại khoa hiện trẻ ổn, còn ho=&gt; xuất viện, toa về 03 ngày</QT_BENHLY>
+    <TOMTAT_KQ>wbc:8.72
+        ne: 5.09
+        plt: 278
+        ns1( âm tính)</TOMTAT_KQ>
+    <PP_DIEUTRI>kháng sinh, chống viêm, giảm triệu chứng</PP_DIEUTRI>
+    <NGAY_SINHCON />
+    <NGAY_CONCHET />
+    <SO_CONCHET />
+    <KET_QUA_DTRI>1</KET_QUA_DTRI>
+    <GHI_CHU>uống thuốc theo toa</GHI_CHU>
+    <MA_TTDV>4796007583</MA_TTDV>
+    <NGAY_CT>20240701</NGAY_CT>
+    <MA_THE_TAM />
+    <DU_PHONG />
+</CHI_TIEU_DU_LIEU_TOM_TAT_HO_SO_BENH_AN>

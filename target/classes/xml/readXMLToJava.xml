@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <customTag attribute1="value1">
+        <subTag>This is content within the custom tag.</subTag>
+    </customTag>
+    <customTag attribute1="value2">
+        <subTag>More content within another custom tag.</subTag>
+    </customTag>
+</data>

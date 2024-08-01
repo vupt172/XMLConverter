@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CHITIEU_CHITIET_THUOC>
+    <DSACH_CHI_TIET_THUOC>
+        <CHI_TIET_THUOC>
+            <MA_LK>TN.2407.0001658</MA_LK>
+            <STT>1</STT>
+            <MA_THUOC>40.807</MA_THUOC>
+            <MA_PP_CHEBIEN />
+            <MA_CSKCB_THUOC />
+            <MA_NHOM>4</MA_NHOM>
+            <TEN_THUOC>Glumeform 500</TEN_THUOC>
+            <DON_VI_TINH>Viên</DON_VI_TINH>
+            <HAM_LUONG>500mg</HAM_LUONG>
+            <DUONG_DUNG>1.01</DUONG_DUNG>
+            <DANG_BAO_CHE />
+            <LIEU_DUNG>Sáng: 1,Trưa:0,Chiều:2</LIEU_DUNG>
+            <CACH_DUNG />
+            <SO_DANG_KY>VD-21779-14</SO_DANG_KY>
+            <TT_THAU>93/QĐ-TTMS;G1;N2</TT_THAU>
+            <PHAM_VI>1</PHAM_VI>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <SO_LUONG>84,00</SO_LUONG>
+            <DON_GIA>289,00</DON_GIA>
+            <THANH_TIEN_BV>24276,00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>24276,00</THANH_TIEN_BH>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0,00</T_NGUONKHAC>
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_BNTT>0,00</T_BNTT>
+            <T_BNCCT>0,00</T_BNCCT>
+            <T_BHTT>24276,00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_BAC_SI>010163/ĐNAI-CCHN</MA_BAC_SI>
+            <MA_DICH_VU />
+            <NGAY_YL>202407040740</NGAY_YL>
+            <NGAY_TH_YL>202407040740</NGAY_TH_YL>
+            <MA_PTTT>1</MA_PTTT>
+            <NGUON_CTRA>1</NGUON_CTRA>
+            <VET_THUONG_TP />
+            <DU_PHONG />
+        </CHI_TIET_THUOC>
+        <CHI_TIET_THUOC>
+            <MA_LK>TN.2407.0001658</MA_LK>
+            <STT>2</STT>
+            <MA_THUOC>40.671</MA_THUOC>
+            <MA_PP_CHEBIEN />
+            <MA_CSKCB_THUOC />
+            <MA_NHOM>4</MA_NHOM>
+            <TEN_THUOC>Alumag-S</TEN_THUOC>
+            <DON_VI_TINH>Gói</DON_VI_TINH>
+            <HAM_LUONG>800,4mg + 4596mg + 80mg; 15g</HAM_LUONG>
+            <DUONG_DUNG>1.01</DUONG_DUNG>
+            <DANG_BAO_CHE />
+            <LIEU_DUNG>Sáng: 1,Trưa:0,Chiều:0</LIEU_DUNG>
+            <CACH_DUNG />
+            <SO_DANG_KY>VD-20654-14</SO_DANG_KY>
+            <TT_THAU>1417/QĐ-SYT;G1;N4</TT_THAU>
+            <PHAM_VI>1</PHAM_VI>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <SO_LUONG>14,00</SO_LUONG>
+            <DON_GIA>3444,00</DON_GIA>
+            <THANH_TIEN_BV>48216,00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>48216,00</THANH_TIEN_BH>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0,00</T_NGUONKHAC>
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_BNTT>0,00</T_BNTT>
+            <T_BNCCT>0,00</T_BNCCT>
+            <T_BHTT>48216,00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_BAC_SI>010163/ĐNAI-CCHN</MA_BAC_SI>
+            <MA_DICH_VU />
+            <NGAY_YL>202407040740</NGAY_YL>
+            <NGAY_TH_YL>202407040740</NGAY_TH_YL>
+            <MA_PTTT>1</MA_PTTT>
+            <NGUON_CTRA>1</NGUON_CTRA>
+            <VET_THUONG_TP />
+            <DU_PHONG />
+        </CHI_TIET_THUOC>
+        <CHI_TIET_THUOC>
+            <MA_LK>TN.2407.0001658</MA_LK>
+            <STT>3</STT>
+            <MA_THUOC>40.177</MA_THUOC>
+            <MA_PP_CHEBIEN />
+            <MA_CSKCB_THUOC />
+            <MA_NHOM>4</MA_NHOM>
+            <TEN_THUOC>Naptogast 20</TEN_THUOC>
+            <DON_VI_TINH>Viên</DON_VI_TINH>
+            <HAM_LUONG>20mg</HAM_LUONG>
+            <DUONG_DUNG>1.01</DUONG_DUNG>
+            <DANG_BAO_CHE />
+            <LIEU_DUNG>Sáng: 1,Trưa:0,Chiều:0</LIEU_DUNG>
+            <CACH_DUNG />
+            <SO_DANG_KY>VD-27892-17</SO_DANG_KY>
+            <TT_THAU>1626/QĐ-SYT;G1;N2</TT_THAU>
+            <PHAM_VI>1</PHAM_VI>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <SO_LUONG>14,00</SO_LUONG>
+            <DON_GIA>1554,00</DON_GIA>
+            <THANH_TIEN_BV>21756,00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>21756,00</THANH_TIEN_BH>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0,00</T_NGUONKHAC>
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_BNTT>0,00</T_BNTT>
+            <T_BNCCT>0,00</T_BNCCT>
+            <T_BHTT>21756,00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_BAC_SI>010163/ĐNAI-CCHN</MA_BAC_SI>
+            <MA_DICH_VU />
+            <NGAY_YL>202407040740</NGAY_YL>
+            <NGAY_TH_YL>202407040740</NGAY_TH_YL>
+            <MA_PTTT>1</MA_PTTT>
+            <NGUON_CTRA>1</NGUON_CTRA>
+            <VET_THUONG_TP />
+            <DU_PHONG />
+        </CHI_TIET_THUOC>
+        <CHI_TIET_THUOC>
+            <MA_LK>TN.2407.0001658</MA_LK>
+            <STT>4</STT>
+            <MA_THUOC>40.513</MA_THUOC>
+            <MA_PP_CHEBIEN />
+            <MA_CSKCB_THUOC />
+            <MA_NHOM>4</MA_NHOM>
+            <TEN_THUOC>Agilosart-H 50/12,5</TEN_THUOC>
+            <DON_VI_TINH>Viên</DON_VI_TINH>
+            <HAM_LUONG>50mg + 12,5mg</HAM_LUONG>
+            <DUONG_DUNG>1.01</DUONG_DUNG>
+            <DANG_BAO_CHE />
+            <LIEU_DUNG>Sáng: 1,Trưa:0,Chiều:0</LIEU_DUNG>
+            <CACH_DUNG />
+            <SO_DANG_KY>VD-29653-18</SO_DANG_KY>
+            <TT_THAU>1572/QĐ-SYT;G1;N4</TT_THAU>
+            <PHAM_VI>1</PHAM_VI>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <SO_LUONG>28,00</SO_LUONG>
+            <DON_GIA>410,00</DON_GIA>
+            <THANH_TIEN_BV>11480,00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>11480,00</THANH_TIEN_BH>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0,00</T_NGUONKHAC>
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_BNTT>0,00</T_BNTT>
+            <T_BNCCT>0,00</T_BNCCT>
+            <T_BHTT>11480,00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_BAC_SI>010163/ĐNAI-CCHN</MA_BAC_SI>
+            <MA_DICH_VU />
+            <NGAY_YL>202407040740</NGAY_YL>
+            <NGAY_TH_YL>202407040740</NGAY_TH_YL>
+            <MA_PTTT>1</MA_PTTT>
+            <NGUON_CTRA>1</NGUON_CTRA>
+            <VET_THUONG_TP />
+            <DU_PHONG />
+        </CHI_TIET_THUOC>
+        <CHI_TIET_THUOC>
+            <MA_LK>TN.2407.0001658</MA_LK>
+            <STT>5</STT>
+            <MA_THUOC>40.558</MA_THUOC>
+            <MA_PP_CHEBIEN />
+            <MA_CSKCB_THUOC />
+            <MA_NHOM>4</MA_NHOM>
+            <TEN_THUOC>Rosuvastatin 10</TEN_THUOC>
+            <DON_VI_TINH>Viên</DON_VI_TINH>
+            <HAM_LUONG>10mg</HAM_LUONG>
+            <DUONG_DUNG>1.01</DUONG_DUNG>
+            <DANG_BAO_CHE />
+            <LIEU_DUNG>Sáng: 0,Trưa:0,Chiều:0</LIEU_DUNG>
+            <CACH_DUNG />
+            <SO_DANG_KY>VD-35415-21</SO_DANG_KY>
+            <TT_THAU>1572/QĐ-SYT;G1;N4</TT_THAU>
+            <PHAM_VI>1</PHAM_VI>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <SO_LUONG>28,00</SO_LUONG>
+            <DON_GIA>300,00</DON_GIA>
+            <THANH_TIEN_BV>8400,00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>8400,00</THANH_TIEN_BH>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0,00</T_NGUONKHAC>
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_BNTT>0,00</T_BNTT>
+            <T_BNCCT>0,00</T_BNCCT>
+            <T_BHTT>8400,00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_BAC_SI>010163/ĐNAI-CCHN</MA_BAC_SI>
+            <MA_DICH_VU />
+            <NGAY_YL>202407040740</NGAY_YL>
+            <NGAY_TH_YL>202407040740</NGAY_TH_YL>
+            <MA_PTTT>1</MA_PTTT>
+            <NGUON_CTRA>1</NGUON_CTRA>
+            <VET_THUONG_TP />
+            <DU_PHONG />
+        </CHI_TIET_THUOC>
+    </DSACH_CHI_TIET_THUOC>
+</CHITIEU_CHITIET_THUOC>

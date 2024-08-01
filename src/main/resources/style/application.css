@@ -1,0 +1,48 @@
+@import url("nord-light.css");
+
+* {
+    primary-text: #537297;
+    secondary-text: rgb(195, 208, 224);
+    primary-bg: #476283;
+    secondary-bg: rgb(236, 239, 245);
+}
+.main-view {
+    -fx-pref-width: 1440px;
+    -fx-pref-height: 860px;
+    -fx-background-color: secondary-bg;
+    -fx-font-size: 14px;
+}
+
+.main-header{
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI";
+}
+.main-left-side{
+    -fx-font-size: 14px;
+}
+.filter-result{
+
+}
+.main-footer {
+    -fx-font-size: 14px;
+}
+.text-area-console {
+    -fx-control-inner-background: black;
+    -fx-highlight-fill: lightgray;
+    -fx-highlight-text-fill: black;
+    -fx-text-fill: secondary-text;
+    -fx-font-family: "Calibri";
+    -fx-font-size: 16px;
+}
+.xml-detail-view{
+    -fx-pref-width: 1440px;
+    -fx-pref-height: 860px;
+    -fx-background-color: secondary-bg;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-spacing: 5px;
+}
+.xml-detail-view .text-area{
+    -fx-control-inner-background: rgba(251, 167, 27, 0.2);
+}
+

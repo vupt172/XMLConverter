@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHI_TIEU_DU_LIEU_GIAY_CHUNG_SINH>
+    <DSACH_GIAYCHUNGSINH>
+        <DU_LIEU_GIAY_CHUNG_SINH>
+            <MA_LK>24.013155</MA_LK>
+            <MA_BHXH_NND>4024816893</MA_BHXH_NND>
+            <MA_THE_NND>GD4754024816893</MA_THE_NND>
+            <HO_TEN_NND>PHAN THỊ CHUNG</HO_TEN_NND>
+            <NGAYSINH_NND>20010216</NGAYSINH_NND>
+            <MA_DANTOC_NND>25</MA_DANTOC_NND>
+            <SO_CCCD_NND>040301022260</SO_CCCD_NND>
+            <NGAYCAP_CCCD_NND>20230210</NGAYCAP_CCCD_NND>
+            <NOICAP_CCCD_NND>Cục Trưởng Cục Cảnh Sát QLHC về TTXH</NOICAP_CCCD_NND>
+            <NOI_CU_TRU_NND>Xóm 8, Nghi Kiều, Nghi Lộc, Nghệ An</NOI_CU_TRU_NND>
+            <MA_QUOCTICH>000</MA_QUOCTICH>
+            <MATINH_CU_TRU>40</MATINH_CU_TRU>
+            <MAHUYEN_CU_TRU>429</MAHUYEN_CU_TRU>
+            <MAXA_CU_TRU>17854</MAXA_CU_TRU>
+            <HO_TEN_CHA>PHAN VĂN ĐỘI</HO_TEN_CHA>
+            <MA_THE_TAM>GD4754024816893</MA_THE_TAM>
+            <HO_TEN_CON>PHAN ĐỨC TÀI</HO_TEN_CON>
+            <GIOI_TINH_CON>1</GIOI_TINH_CON>
+            <SO_CON>1</SO_CON>
+            <LAN_SINH>1</LAN_SINH>
+            <SO_CON_SONG>1</SO_CON_SONG>
+            <CAN_NANG_CON>2700</CAN_NANG_CON>
+            <NGAY_SINH_CON>202406301115</NGAY_SINH_CON>
+            <NOI_SINH_CON>4767</NOI_SINH_CON>
+            <TINH_TRANG_CON>Khỏe mạnh</TINH_TRANG_CON>
+            <SINHCON_PHAUTHUAT>0</SINHCON_PHAUTHUAT>
+            <SINHCON_DUOI32TUAN>0</SINHCON_DUOI32TUAN>
+            <GHI_CHU />
+            <NGUOI_DO_DE>132</NGUOI_DO_DE>
+            <NGUOI_GHI_PHIEU>Trần Thị Cẩm Vân</NGUOI_GHI_PHIEU>
+            <NGAY_CT>20240630</NGAY_CT>
+            <SO>426</SO>
+            <QUYEN_SO>001</QUYEN_SO>
+            <MA_TTDV>7510107666</MA_TTDV>
+            <DU_PHONG />
+        </DU_LIEU_GIAY_CHUNG_SINH>
+    </DSACH_GIAYCHUNGSINH>
+</CHI_TIEU_DU_LIEU_GIAY_CHUNG_SINH>

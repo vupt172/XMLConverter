@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CHITIEU_CHITIET_DVKT_VTYT>
+    <DSACH_CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>1</STT>
+            <MA_DICH_VU>22.0121.1369</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>1</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>47500.00</DON_GIA_BV>
+            <DON_GIA_BH>47500.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>47500.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>47500.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>47500.00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>012945/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>012945/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202406302211</NGAY_YL>
+            <NGAY_TH_YL>202406302211</NGAY_TH_YL>
+            <NGAY_KQ>202406302221</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY>HH.3.75008.71191BG</MA_MAY>
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>2</STT>
+            <MA_DICH_VU>24.0183.1637</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>1</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Dengue virus NS1Ag test nhanh</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>135000.00</DON_GIA_BV>
+            <DON_GIA_BH>135000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>135000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>135000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>135000.00</T_BHTT>
+            <MA_KHOA>K01</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>012945/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>012945/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202406302211</NGAY_YL>
+            <NGAY_TH_YL>202406302211</NGAY_TH_YL>
+            <NGAY_KQ>202406302242</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>3</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>012945/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>012945/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202406302315</NGAY_YL>
+            <NGAY_TH_YL>202406302315</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>4</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407010801</NGAY_YL>
+            <NGAY_TH_YL>202407010801</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>5</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407020801</NGAY_YL>
+            <NGAY_TH_YL>202407020801</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>6</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407030800</NGAY_YL>
+            <NGAY_TH_YL>202407030800</NGAY_TH_YL>
+            <NGAY_KQ>202407030800</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>7</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407032000</NGAY_YL>
+            <NGAY_TH_YL>202407032000</NGAY_TH_YL>
+            <NGAY_KQ>202407032000</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>8</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407030804</NGAY_YL>
+            <NGAY_TH_YL>202407030804</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>9</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407040801</NGAY_YL>
+            <NGAY_TH_YL>202407040801</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>10</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407040800</NGAY_YL>
+            <NGAY_TH_YL>202407040800</NGAY_TH_YL>
+            <NGAY_KQ>202407040800</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>11</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407042000</NGAY_YL>
+            <NGAY_TH_YL>202407042000</NGAY_TH_YL>
+            <NGAY_KQ>202407042000</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>12</STT>
+            <MA_DICH_VU>22.0121.1369</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>1</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>47500.00</DON_GIA_BV>
+            <DON_GIA_BH>47500.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>47500.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>47500.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>47500.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407050600</NGAY_YL>
+            <NGAY_TH_YL>202407050600</NGAY_TH_YL>
+            <NGAY_KQ>202407050617</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY>HH.3.75008.71191BG</MA_MAY>
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>13</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407050800</NGAY_YL>
+            <NGAY_TH_YL>202407050800</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>14</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407050800</NGAY_YL>
+            <NGAY_TH_YL>202407050800</NGAY_TH_YL>
+            <NGAY_KQ>202407050800</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>15</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407052000</NGAY_YL>
+            <NGAY_TH_YL>202407052000</NGAY_TH_YL>
+            <NGAY_KQ>202407052000</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>16</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>	013345/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>	013345/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407060800</NGAY_YL>
+            <NGAY_TH_YL>202407060800</NGAY_TH_YL>
+            <NGAY_KQ>202407060800</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>17</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>	013345/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>	013345/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407062000</NGAY_YL>
+            <NGAY_TH_YL>202407062000</NGAY_TH_YL>
+            <NGAY_KQ>202407062000</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>18</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>006329/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>006329/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407070800</NGAY_YL>
+            <NGAY_TH_YL>202407070800</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>19</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>013952/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>013952/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407070800</NGAY_YL>
+            <NGAY_TH_YL>202407070800</NGAY_TH_YL>
+            <NGAY_KQ>202407070800</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>20</STT>
+            <MA_DICH_VU>15.0222.0898</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>18</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Khí dung mũi họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>23000.00</DON_GIA_BV>
+            <DON_GIA_BH>23000.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>23000.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>23000.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>23000.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG />
+            <MA_BAC_SI>013952/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>013952/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407072000</NGAY_YL>
+            <NGAY_TH_YL>202407072000</NGAY_TH_YL>
+            <NGAY_KQ>202407072000</NGAY_KQ>
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+        <CHI_TIET_DVKT>
+            <MA_LK>24.013209</MA_LK>
+            <STT>21</STT>
+            <MA_DICH_VU>K28.1917</MA_DICH_VU>
+            <MA_PTTT_QT />
+            <MA_VAT_TU />
+            <MA_NHOM>15</MA_NHOM>
+            <GOI_VTYT />
+            <TEN_VAT_TU />
+            <TEN_DICH_VU>Giường Nội khoa loại 2 Hạng II - Khoa Tai - Mũi - Họng</TEN_DICH_VU>
+            <MA_XANG_DAU />
+            <DON_VI_TINH>Lần</DON_VI_TINH>
+            <PHAM_VI>1</PHAM_VI>
+            <SO_LUONG>1</SO_LUONG>
+            <DON_GIA_BV>182700.00</DON_GIA_BV>
+            <DON_GIA_BH>182700.00</DON_GIA_BH>
+            <TT_THAU />
+            <TYLE_TT_DV>100</TYLE_TT_DV>
+            <TYLE_TT_BH>100</TYLE_TT_BH>
+            <THANH_TIEN_BV>182700.00</THANH_TIEN_BV>
+            <THANH_TIEN_BH>182700.00</THANH_TIEN_BH>
+            <T_TRANTT />
+            <MUC_HUONG>100</MUC_HUONG>
+            <T_NGUONKHAC_NSNN>0</T_NGUONKHAC_NSNN>
+            <T_NGUONKHAC_VTNN>0</T_NGUONKHAC_VTNN>
+            <T_NGUONKHAC_VTTN>0</T_NGUONKHAC_VTTN>
+            <T_NGUONKHAC_CL>0</T_NGUONKHAC_CL>
+            <T_NGUONKHAC>0.00</T_NGUONKHAC>
+            <T_BNTT>0.00</T_BNTT>
+            <T_BNCCT>0.00</T_BNCCT>
+            <T_BHTT>182700.00</T_BHTT>
+            <MA_KHOA>K282930</MA_KHOA>
+            <MA_GIUONG>H012</MA_GIUONG>
+            <MA_BAC_SI>014730/ĐNAI-CCHN</MA_BAC_SI>
+            <NGUOI_THUC_HIEN>014730/ĐNAI-CCHN</NGUOI_THUC_HIEN>
+            <MA_BENH>J04.0;J00</MA_BENH>
+            <MA_BENH_YHCT />
+            <NGAY_YL>202407060800</NGAY_YL>
+            <NGAY_TH_YL>202407060800</NGAY_TH_YL>
+            <NGAY_KQ />
+            <MA_PTTT>1</MA_PTTT>
+            <VET_THUONG_TP />
+            <PP_VO_CAM />
+            <VI_TRI_TH_DVKT>0</VI_TRI_TH_DVKT>
+            <MA_MAY />
+            <MA_HIEU_SP />
+            <TAI_SU_DUNG>1</TAI_SU_DUNG>
+            <DU_PHONG />
+        </CHI_TIET_DVKT>
+    </DSACH_CHI_TIET_DVKT>
+</CHITIEU_CHITIET_DVKT_VTYT>
