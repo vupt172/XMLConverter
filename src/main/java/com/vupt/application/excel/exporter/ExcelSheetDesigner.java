@@ -33,6 +33,5 @@ public class ExcelSheetDesigner {
         for (int columnIndex = 0; columnIndex < lastColumn; columnIndex++) {
             sheet.autoSizeColumn(columnIndex);
         }
-
     }
 }

@@ -1,5 +1,6 @@
 package com.vupt.application.excel.importer;
 
+import com.vupt.application.exception.AppException;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML8Pack.XML8;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML9Pack.DU_LIEU_GIAY_CHUNG_SINH;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML9Pack.XML9;
@@ -60,56 +61,62 @@ public class XML9ImportExcel {
 
     public XML9 readExcel() throws IOException {
 
-        DataFormatter fmt = new DataFormatter();
         Iterator<Row> iterator = sheet.iterator();
         Row firstRow = iterator.next();
-
         XML9 xml9 = new XML9();
-        List<DU_LIEU_GIAY_CHUNG_SINH>  ds_du_lieu_giay_chung_sinh=new ArrayList<>();
-        while (iterator.hasNext()){
-            Row currentRow=iterator.next();
-            DU_LIEU_GIAY_CHUNG_SINH du_lieu_giay_chung_sinh=new DU_LIEU_GIAY_CHUNG_SINH();
-
-            du_lieu_giay_chung_sinh.MA_LK=currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_BHXH_NND=currentRow.getCell(COLUMN_INDEX_MA_BHXH_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_THE_NND=currentRow.getCell(COLUMN_INDEX_MA_THE_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.HO_TEN_NND=currentRow.getCell(COLUMN_INDEX_HO_TEN_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.NGAYSINH_NND=currentRow.getCell(COLUMN_INDEX_NGAYSINH_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_DANTOC_NND=currentRow.getCell(COLUMN_INDEX_MA_DANTOC_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.SO_CCCD_NND=currentRow.getCell(COLUMN_INDEX_SO_CCCD_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.NGAYCAP_CCCD_NND=currentRow.getCell(COLUMN_INDEX_NGAYCAP_CCCD_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.NOICAP_CCCD_NND=currentRow.getCell(COLUMN_INDEX_NOICAP_CCCD_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.NOI_CU_TRU_NND=currentRow.getCell(COLUMN_INDEX_NOI_CU_TRU_NND).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_QUOCTICH=currentRow.getCell(COLUMN_INDEX_MA_QUOCTICH).getStringCellValue();
-            du_lieu_giay_chung_sinh.MATINH_CU_TRU=currentRow.getCell(COLUMN_INDEX_MATINH_CU_TRU).getStringCellValue();
-            du_lieu_giay_chung_sinh.MAHUYEN_CU_TRU=currentRow.getCell(COLUMN_INDEX_MAHUYEN_CU_TRU).getStringCellValue();
-            du_lieu_giay_chung_sinh.MAXA_CU_TRU=currentRow.getCell(COLUMN_INDEX_MAXA_CU_TRU).getStringCellValue();
-            du_lieu_giay_chung_sinh.HO_TEN_CHA=currentRow.getCell(COLUMN_INDEX_HO_TEN_CHA).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_THE_TAM=currentRow.getCell(COLUMN_INDEX_MA_THE_TAM).getStringCellValue();
-            du_lieu_giay_chung_sinh.HO_TEN_CON=currentRow.getCell(COLUMN_INDEX_HO_TEN_CON).getStringCellValue();
-            du_lieu_giay_chung_sinh.GIOI_TINH_CON= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_GIOI_TINH_CON)));
-            du_lieu_giay_chung_sinh.SO_CON= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CON)));
-            du_lieu_giay_chung_sinh.LAN_SINH= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_LAN_SINH)));
-            du_lieu_giay_chung_sinh.SO_CON_SONG= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CON_SONG)));
-            du_lieu_giay_chung_sinh.CAN_NANG_CON= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_CAN_NANG_CON)));
-            du_lieu_giay_chung_sinh.NGAY_SINH_CON=currentRow.getCell(COLUMN_INDEX_NGAY_SINH_CON).getStringCellValue();
-            du_lieu_giay_chung_sinh.NOI_SINH_CON=currentRow.getCell(COLUMN_INDEX_NOI_SINH_CON).getStringCellValue();
-            du_lieu_giay_chung_sinh.TINH_TRANG_CON=currentRow.getCell(COLUMN_INDEX_TINH_TRANG_CON).getStringCellValue();
-            du_lieu_giay_chung_sinh.SINHCON_PHAUTHUAT= Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SINHCON_PHAUTHUAT)));
-            du_lieu_giay_chung_sinh.SINHCON_DUOI32TUAN=Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SINHCON_DUOI32TUAN)));
-            du_lieu_giay_chung_sinh.GHI_CHU=currentRow.getCell(COLUMN_INDEX_GHI_CHU).getStringCellValue();
-            du_lieu_giay_chung_sinh.NGUOI_DO_DE=currentRow.getCell(COLUMN_INDEX_NGUOI_DO_DE).getStringCellValue();
-            du_lieu_giay_chung_sinh.NGUOI_GHI_PHIEU=currentRow.getCell(COLUMN_INDEX_NGUOI_GHI_PHIEU).getStringCellValue();
-            du_lieu_giay_chung_sinh.NGAY_CT=currentRow.getCell(COLUMN_INDEX_NGAY_CT).getStringCellValue();
-            du_lieu_giay_chung_sinh.SO=currentRow.getCell(COLUMN_INDEX_SO).getStringCellValue();
-            du_lieu_giay_chung_sinh.QUYEN_SO=currentRow.getCell(COLUMN_INDEX_QUYEN_SO).getStringCellValue();
-            du_lieu_giay_chung_sinh.MA_TTDV=currentRow.getCell(COLUMN_INDEX_MA_TTDV).getStringCellValue();
-            du_lieu_giay_chung_sinh.DU_PHONG=currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
-
-
+        List<DU_LIEU_GIAY_CHUNG_SINH> ds_du_lieu_giay_chung_sinh = new ArrayList<>();
+        while (iterator.hasNext()) {
+            Row currentRow = iterator.next();
+            DU_LIEU_GIAY_CHUNG_SINH du_lieu_giay_chung_sinh = getValueFromRow(currentRow);
             ds_du_lieu_giay_chung_sinh.add(du_lieu_giay_chung_sinh);
         }
-        xml9.dsach_giaychungsinh.ds_du_lieu_giay_chung_sinh=ds_du_lieu_giay_chung_sinh;
+        xml9.dsach_giaychungsinh.ds_du_lieu_giay_chung_sinh = ds_du_lieu_giay_chung_sinh;
         return xml9;
+    }
+
+    private DU_LIEU_GIAY_CHUNG_SINH getValueFromRow(Row currentRow) {
+        try {
+            DataFormatter fmt = new DataFormatter();
+            DU_LIEU_GIAY_CHUNG_SINH du_lieu_giay_chung_sinh = new DU_LIEU_GIAY_CHUNG_SINH();
+
+            du_lieu_giay_chung_sinh.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_BHXH_NND = currentRow.getCell(COLUMN_INDEX_MA_BHXH_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_THE_NND = currentRow.getCell(COLUMN_INDEX_MA_THE_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.HO_TEN_NND = currentRow.getCell(COLUMN_INDEX_HO_TEN_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.NGAYSINH_NND = currentRow.getCell(COLUMN_INDEX_NGAYSINH_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_DANTOC_NND = currentRow.getCell(COLUMN_INDEX_MA_DANTOC_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.SO_CCCD_NND = currentRow.getCell(COLUMN_INDEX_SO_CCCD_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.NGAYCAP_CCCD_NND = currentRow.getCell(COLUMN_INDEX_NGAYCAP_CCCD_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.NOICAP_CCCD_NND = currentRow.getCell(COLUMN_INDEX_NOICAP_CCCD_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.NOI_CU_TRU_NND = currentRow.getCell(COLUMN_INDEX_NOI_CU_TRU_NND).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_QUOCTICH = currentRow.getCell(COLUMN_INDEX_MA_QUOCTICH).getStringCellValue();
+            du_lieu_giay_chung_sinh.MATINH_CU_TRU = currentRow.getCell(COLUMN_INDEX_MATINH_CU_TRU).getStringCellValue();
+            du_lieu_giay_chung_sinh.MAHUYEN_CU_TRU = currentRow.getCell(COLUMN_INDEX_MAHUYEN_CU_TRU).getStringCellValue();
+            du_lieu_giay_chung_sinh.MAXA_CU_TRU = currentRow.getCell(COLUMN_INDEX_MAXA_CU_TRU).getStringCellValue();
+            du_lieu_giay_chung_sinh.HO_TEN_CHA = currentRow.getCell(COLUMN_INDEX_HO_TEN_CHA).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_THE_TAM = currentRow.getCell(COLUMN_INDEX_MA_THE_TAM).getStringCellValue();
+            du_lieu_giay_chung_sinh.HO_TEN_CON = currentRow.getCell(COLUMN_INDEX_HO_TEN_CON).getStringCellValue();
+            du_lieu_giay_chung_sinh.GIOI_TINH_CON = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_GIOI_TINH_CON)));
+            du_lieu_giay_chung_sinh.SO_CON = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CON)));
+            du_lieu_giay_chung_sinh.LAN_SINH = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_LAN_SINH)));
+            du_lieu_giay_chung_sinh.SO_CON_SONG = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CON_SONG)));
+            du_lieu_giay_chung_sinh.CAN_NANG_CON = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_CAN_NANG_CON)));
+            du_lieu_giay_chung_sinh.NGAY_SINH_CON = currentRow.getCell(COLUMN_INDEX_NGAY_SINH_CON).getStringCellValue();
+            du_lieu_giay_chung_sinh.NOI_SINH_CON = currentRow.getCell(COLUMN_INDEX_NOI_SINH_CON).getStringCellValue();
+            du_lieu_giay_chung_sinh.TINH_TRANG_CON = currentRow.getCell(COLUMN_INDEX_TINH_TRANG_CON).getStringCellValue();
+            du_lieu_giay_chung_sinh.SINHCON_PHAUTHUAT = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SINHCON_PHAUTHUAT)));
+            du_lieu_giay_chung_sinh.SINHCON_DUOI32TUAN = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SINHCON_DUOI32TUAN)));
+            du_lieu_giay_chung_sinh.GHI_CHU = currentRow.getCell(COLUMN_INDEX_GHI_CHU).getStringCellValue();
+            du_lieu_giay_chung_sinh.NGUOI_DO_DE = currentRow.getCell(COLUMN_INDEX_NGUOI_DO_DE).getStringCellValue();
+            du_lieu_giay_chung_sinh.NGUOI_GHI_PHIEU = currentRow.getCell(COLUMN_INDEX_NGUOI_GHI_PHIEU).getStringCellValue();
+            du_lieu_giay_chung_sinh.NGAY_CT = currentRow.getCell(COLUMN_INDEX_NGAY_CT).getStringCellValue();
+            du_lieu_giay_chung_sinh.SO = currentRow.getCell(COLUMN_INDEX_SO).getStringCellValue();
+            du_lieu_giay_chung_sinh.QUYEN_SO = currentRow.getCell(COLUMN_INDEX_QUYEN_SO).getStringCellValue();
+            du_lieu_giay_chung_sinh.MA_TTDV = currentRow.getCell(COLUMN_INDEX_MA_TTDV).getStringCellValue();
+            du_lieu_giay_chung_sinh.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
+            return du_lieu_giay_chung_sinh;
+        } catch (Exception e) {
+            throw new AppException("Đã có lỗi xảy ra khi truy xuất dữ liệu từ Excel bảng XML9 hàng thứ " + currentRow.getRowNum() + "\n" + e.toString() + ": " + e.getMessage(), e.getStackTrace());
+        }
     }
 }

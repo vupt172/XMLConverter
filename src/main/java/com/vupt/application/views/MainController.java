@@ -26,6 +26,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 
 
@@ -41,6 +42,10 @@ import java.util.stream.Stream;
 
 @Controller
 public class MainController {
+    @Value("${config.app.info}")
+    private String appInfo;
+    @Value("${config.app.update}")
+    private String appUpdate;
     @FXML
     TextField tfFilePath;
     @FXML
@@ -109,14 +114,9 @@ public class MainController {
     }
     @FXML
     public void showApplicationInfo(){
-        StringBuilder appInfo= new StringBuilder();
-        appInfo.append("PHẦN MỀM XML CONVERTER CHO GIÁM ĐỊNH BẢO HIỂM Y TẾ\n");
-        appInfo.append("Tác giả : Phạm Tuấn Vũ\n");
-        appInfo.append("Địa điểm : Bệnh viện Đa khoa khu vực Long Thành\n");
-        appInfo.append("Email: vu.pt172@gmail.com\n");
-        appInfo.append("Ngày phiên bản: 31/07/2024");
-        Alert alert=new Alert(Alert.AlertType.INFORMATION,appInfo.toString(),ButtonType.OK);
-        alert.setHeaderText("Thông tin ứng dụng");
+        Alert alert=new Alert(Alert.AlertType.INFORMATION,appUpdate,ButtonType.OK);
+        alert.setTitle("Thông tin ứng dụng");
+        alert.setHeaderText(appInfo);
         alert.show();
     }
 
@@ -182,6 +182,9 @@ public class MainController {
     public void clear(){
         cbXMLType.setValue(null);
         tfMA_YT.setText("");
+        tfMA_LK.setText("");
+        tfHO_TEN.setText("");
+        tfMA_THE_BHYT.setText("");
     }
 
     @FXML
@@ -204,13 +207,13 @@ public class MainController {
             new Thread(xmlToGDHSTask).start();
         }
     }
-
-
     @FXML
     public void XMLToExcel() throws Exception {
         HOSO hoso = tbHoSo.getSelectionModel().getSelectedItem();
         if (hoso != null) {
-            String filePath=String.format("output/%s.xlsx", DateTimeUtils.includeTimeToString(hoso.hosoInfo.MA_BN+"_"+hoso.hosoInfo.HO_TEN));
+            String name=hoso.hosoInfo.MA_BN+"_"+hoso.hosoInfo.HO_TEN;
+            name=name.replaceAll("/",".");
+            String filePath=String.format("output/%s.xlsx", DateTimeUtils.includeTimeToString(name));
             GDHSToExcelTask exportXMLToExcelTask=new GDHSToExcelTask(hoso,filePath);
             progressBar.progressProperty().bind(exportXMLToExcelTask.progressProperty());
             new Thread(exportXMLToExcelTask).start();

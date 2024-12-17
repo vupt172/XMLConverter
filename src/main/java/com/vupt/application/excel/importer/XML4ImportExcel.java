@@ -1,5 +1,6 @@
 package com.vupt.application.excel.importer;
 
+import com.vupt.application.exception.AppException;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML3Pack.XML3;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML4Pack.CHI_TIET_CLS;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML4Pack.XML4;
@@ -36,8 +37,6 @@ public class XML4ImportExcel {
     }
 
     public XML4 readExcel() throws IOException {
-
-        DataFormatter fmt = new DataFormatter();
         Iterator<Row> iterator = sheet.iterator();
         Row firstRow = iterator.next();
         XML4 xml4 = new XML4();
@@ -45,6 +44,17 @@ public class XML4ImportExcel {
 
         while (iterator.hasNext()) {
             Row currentRow = iterator.next();
+            CHI_TIET_CLS chi_tiet_cls = getValueFromRow(currentRow);
+            ds_chi_tiet_cls.add(chi_tiet_cls);
+
+        }
+        xml4.dsach_chi_tiet_cls.ds_chi_tiet_cls = ds_chi_tiet_cls;
+        return xml4;
+    }
+
+    private CHI_TIET_CLS getValueFromRow(Row currentRow) {
+        try {
+            DataFormatter fmt = new DataFormatter();
             CHI_TIET_CLS chi_tiet_cls = new CHI_TIET_CLS();
 
             chi_tiet_cls.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
@@ -60,10 +70,9 @@ public class XML4ImportExcel {
             chi_tiet_cls.MA_BS_DOC_KQ = currentRow.getCell(COLUMN_INDEX_MA_BS_DOC_KQ).getStringCellValue();
             chi_tiet_cls.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
 
-            ds_chi_tiet_cls.add(chi_tiet_cls);
-
+            return chi_tiet_cls;
+        } catch (Exception e) {
+            throw new AppException("Đã có lỗi xảy ra khi truy xuất dữ liệu từ Excel bảng XML4 hàng thứ " + currentRow.getRowNum() + "\n" + e.toString() + ": " + e.getMessage(), e.getStackTrace());
         }
-        xml4.dsach_chi_tiet_cls.ds_chi_tiet_cls = ds_chi_tiet_cls;
-        return xml4;
     }
 }

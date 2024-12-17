@@ -1,5 +1,6 @@
 package com.vupt.application.excel.importer;
 
+import com.vupt.application.exception.AppException;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML7Pack.XML7;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML8Pack.XML8;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -44,41 +45,48 @@ public class XML8ImportExcel {
 
     public XML8 readExcel() throws IOException {
 
-        DataFormatter fmt = new DataFormatter();
         Iterator<Row> iterator = sheet.iterator();
         Row firstRow = iterator.next();
-
         Row currentRow = iterator.next();
-        XML8 xml8 = new XML8();
-        xml8.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
-        xml8.MA_LOAI_KCB = currentRow.getCell(COLUMN_INDEX_MA_LOAI_KCB).getStringCellValue();
-        xml8.HO_TEN_CHA = currentRow.getCell(COLUMN_INDEX_HO_TEN_CHA).getStringCellValue();
-        xml8.HO_TEN_ME = currentRow.getCell(COLUMN_INDEX_HO_TEN_ME).getStringCellValue();
-        xml8.NGUOI_GIAM_HO = currentRow.getCell(COLUMN_INDEX_NGUOI_GIAM_HO).getStringCellValue();
-        xml8.DON_VI = currentRow.getCell(COLUMN_INDEX_DON_VI).getStringCellValue();
-        xml8.NGAY_VAO = currentRow.getCell(COLUMN_INDEX_NGAY_VAO).getStringCellValue();
-        xml8.NGAY_RA = currentRow.getCell(COLUMN_INDEX_NGAY_RA).getStringCellValue();
-        xml8.CHAN_DOAN_VAO = currentRow.getCell(COLUMN_INDEX_CHAN_DOAN_VAO).getStringCellValue();
-        xml8.CHAN_DOAN_RV = currentRow.getCell(COLUMN_INDEX_CHAN_DOAN_RV).getStringCellValue();
-        xml8.QT_BENHLY = currentRow.getCell(COLUMN_INDEX_QT_BENHLY).getStringCellValue();
-        xml8.TOMTAT_KQ = currentRow.getCell(COLUMN_INDEX_TOMTAT_KQ).getStringCellValue();
-        xml8.PP_DIEUTRI = currentRow.getCell(COLUMN_INDEX_PP_DIEUTRI).getStringCellValue();
-        xml8.NGAY_SINHCON = currentRow.getCell(COLUMN_INDEX_NGAY_SINHCON).getStringCellValue();
-        xml8.NGAY_CONCHET = currentRow.getCell(COLUMN_INDEX_NGAY_CONCHET).getStringCellValue();
-
-        String SO_CONCHET_STR = fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CONCHET));
-        if (!SO_CONCHET_STR.trim().isEmpty())
-            xml8.SO_CONCHET = Integer.parseInt(SO_CONCHET_STR);
-
-        xml8.KET_QUA_DTRI = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_KET_QUA_DTRI)));
-        xml8.GHI_CHU = currentRow.getCell(COLUMN_INDEX_GHI_CHU).getStringCellValue();
-        xml8.MA_TTDV = currentRow.getCell(COLUMN_INDEX_MA_TTDV).getStringCellValue();
-        xml8.NGAY_CT = currentRow.getCell(COLUMN_INDEX_NGAY_CT).getStringCellValue();
-        xml8.MA_THE_TAM = currentRow.getCell(COLUMN_INDEX_MA_THE_TAM).getStringCellValue();
-        xml8.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
-
+        XML8 xml8 = getValueFromRow(currentRow);
         return xml8;
 
+    }
+
+    private XML8 getValueFromRow(Row currentRow) {
+        try {
+            DataFormatter fmt = new DataFormatter();
+            XML8 xml8 = new XML8();
+            xml8.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
+            xml8.MA_LOAI_KCB = currentRow.getCell(COLUMN_INDEX_MA_LOAI_KCB).getStringCellValue();
+            xml8.HO_TEN_CHA = currentRow.getCell(COLUMN_INDEX_HO_TEN_CHA).getStringCellValue();
+            xml8.HO_TEN_ME = currentRow.getCell(COLUMN_INDEX_HO_TEN_ME).getStringCellValue();
+            xml8.NGUOI_GIAM_HO = currentRow.getCell(COLUMN_INDEX_NGUOI_GIAM_HO).getStringCellValue();
+            xml8.DON_VI = currentRow.getCell(COLUMN_INDEX_DON_VI).getStringCellValue();
+            xml8.NGAY_VAO = currentRow.getCell(COLUMN_INDEX_NGAY_VAO).getStringCellValue();
+            xml8.NGAY_RA = currentRow.getCell(COLUMN_INDEX_NGAY_RA).getStringCellValue();
+            xml8.CHAN_DOAN_VAO = currentRow.getCell(COLUMN_INDEX_CHAN_DOAN_VAO).getStringCellValue();
+            xml8.CHAN_DOAN_RV = currentRow.getCell(COLUMN_INDEX_CHAN_DOAN_RV).getStringCellValue();
+            xml8.QT_BENHLY = currentRow.getCell(COLUMN_INDEX_QT_BENHLY).getStringCellValue();
+            xml8.TOMTAT_KQ = currentRow.getCell(COLUMN_INDEX_TOMTAT_KQ).getStringCellValue();
+            xml8.PP_DIEUTRI = currentRow.getCell(COLUMN_INDEX_PP_DIEUTRI).getStringCellValue();
+            xml8.NGAY_SINHCON = currentRow.getCell(COLUMN_INDEX_NGAY_SINHCON).getStringCellValue();
+            xml8.NGAY_CONCHET = currentRow.getCell(COLUMN_INDEX_NGAY_CONCHET).getStringCellValue();
+
+            String SO_CONCHET_STR = fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_SO_CONCHET));
+            if (!SO_CONCHET_STR.trim().isEmpty())
+                xml8.SO_CONCHET = Integer.parseInt(SO_CONCHET_STR);
+
+            xml8.KET_QUA_DTRI = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_KET_QUA_DTRI)));
+            xml8.GHI_CHU = currentRow.getCell(COLUMN_INDEX_GHI_CHU).getStringCellValue();
+            xml8.MA_TTDV = currentRow.getCell(COLUMN_INDEX_MA_TTDV).getStringCellValue();
+            xml8.NGAY_CT = currentRow.getCell(COLUMN_INDEX_NGAY_CT).getStringCellValue();
+            xml8.MA_THE_TAM = currentRow.getCell(COLUMN_INDEX_MA_THE_TAM).getStringCellValue();
+            xml8.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
+            return xml8;
+        } catch (Exception e) {
+            throw new AppException("Đã có lỗi xảy ra khi truy xuất dữ liệu từ Excel bảng XML8 hàng thứ " + currentRow.getRowNum() + "\n" + e.toString() + ": " + e.getMessage(), e.getStackTrace());
+        }
 
     }
 }

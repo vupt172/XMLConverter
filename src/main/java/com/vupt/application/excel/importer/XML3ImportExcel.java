@@ -1,5 +1,6 @@
 package com.vupt.application.excel.importer;
 
+import com.vupt.application.exception.AppException;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML2Pack.XML2;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML3Pack.CHI_TIET_DVKT;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML3Pack.XML3;
@@ -74,7 +75,6 @@ public class XML3ImportExcel {
 
     public XML3 readExcel() throws IOException {
 
-        DataFormatter fmt = DataUtils.getExcelDataFormatter();
         Iterator<Row> iterator = sheet.iterator();
         Row firstRow = iterator.next();
         XML3 xml3 = new XML3();
@@ -82,6 +82,16 @@ public class XML3ImportExcel {
         List<CHI_TIET_DVKT> ds_chi_tiet_dvkt = new ArrayList<>();
         while (iterator.hasNext()) {
             Row currentRow = iterator.next();
+            CHI_TIET_DVKT chi_tiet_dvkt=getValueFromRow(currentRow);
+            ds_chi_tiet_dvkt.add(chi_tiet_dvkt);
+        }
+        xml3.dsach_chi_tiet_dvkt.ds_chi_tiet_dvkt = ds_chi_tiet_dvkt;
+        return xml3;
+    }
+    private CHI_TIET_DVKT getValueFromRow(Row currentRow){
+
+        DataFormatter fmt = DataUtils.getExcelDataFormatter();
+        try {
             CHI_TIET_DVKT chi_tiet_dvkt = new CHI_TIET_DVKT();
             chi_tiet_dvkt.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
 
@@ -163,14 +173,14 @@ public class XML3ImportExcel {
 
             chi_tiet_dvkt.MA_PTTT = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_MA_PTTT)));
 
-            String VET_THUONG_TP_STR=fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_VET_THUONG_TP));
-            if(!VET_THUONG_TP_STR.trim().isEmpty()){
+            String VET_THUONG_TP_STR = fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_VET_THUONG_TP));
+            if (!VET_THUONG_TP_STR.trim().isEmpty()) {
                 chi_tiet_dvkt.VET_THUONG_TP = Integer.parseInt(VET_THUONG_TP_STR);
             }
-             String PP_VO_CAM_STR=fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_PP_VO_CAM));
-             if(!PP_VO_CAM_STR.trim().isEmpty()){
-                 chi_tiet_dvkt.PP_VO_CAM = Integer.parseInt(PP_VO_CAM_STR);
-             }
+            String PP_VO_CAM_STR = fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_PP_VO_CAM));
+            if (!PP_VO_CAM_STR.trim().isEmpty()) {
+                chi_tiet_dvkt.PP_VO_CAM = Integer.parseInt(PP_VO_CAM_STR);
+            }
 
             chi_tiet_dvkt.VI_TRI_TH_DVKT = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_VI_TRI_TH_DVKT)));
 
@@ -178,15 +188,15 @@ public class XML3ImportExcel {
 
             chi_tiet_dvkt.MA_HIEU_SP = currentRow.getCell(COLUMN_INDEX_MA_HIEU_SP).getStringCellValue();
 
-            String TAI_SU_DUNG_STR=fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_TAI_SU_DUNG));
-            if(!TAI_SU_DUNG_STR.trim().isEmpty()){
+            String TAI_SU_DUNG_STR = fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_TAI_SU_DUNG));
+            if (!TAI_SU_DUNG_STR.trim().isEmpty()) {
                 chi_tiet_dvkt.TAI_SU_DUNG = Integer.parseInt(TAI_SU_DUNG_STR);
             }
             chi_tiet_dvkt.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
-
-            ds_chi_tiet_dvkt.add(chi_tiet_dvkt);
+            return chi_tiet_dvkt;
         }
-        xml3.dsach_chi_tiet_dvkt.ds_chi_tiet_dvkt = ds_chi_tiet_dvkt;
-        return xml3;
+        catch (Exception e){
+            throw new AppException("Đã có lỗi xảy ra khi truy xuất dữ liệu từ Excel bảng XML3 hàng thứ "+currentRow.getRowNum() + "\n"+e.toString()+": "+e.getMessage(), e.getStackTrace());
+        }
     }
 }

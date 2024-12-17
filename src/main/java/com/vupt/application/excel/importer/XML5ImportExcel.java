@@ -1,5 +1,6 @@
 package com.vupt.application.excel.importer;
 
+import com.vupt.application.exception.AppException;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML4Pack.CHI_TIET_CLS;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML4Pack.XML4;
 import com.vupt.application.model.gdhs.lv1.lv2.lv3.lv4.lv5.XML5Pack.CHI_TIET_DIEN_BIEN_BENH;
@@ -35,7 +36,6 @@ public class XML5ImportExcel {
 
     public XML5 readExcel() throws IOException {
 
-        DataFormatter fmt = new DataFormatter();
         Iterator<Row> iterator = sheet.iterator();
         Row firtsRow = iterator.next();
         XML5 xml5 = new XML5();
@@ -43,6 +43,17 @@ public class XML5ImportExcel {
 
         while (iterator.hasNext()) {
             Row currentRow = iterator.next();
+            CHI_TIET_DIEN_BIEN_BENH chi_tiet_dien_bien_benh = getValueFromRow(currentRow);
+            ds_chi_tiet_dien_bien_benh.add(chi_tiet_dien_bien_benh);
+        }
+
+        xml5.dsach_chi_tiet_dien_bien_benh.ds_chi_tiet_dien_bien_benh = ds_chi_tiet_dien_bien_benh;
+        return xml5;
+    }
+
+    private CHI_TIET_DIEN_BIEN_BENH getValueFromRow(Row currentRow) {
+        try {
+            DataFormatter fmt = new DataFormatter();
             CHI_TIET_DIEN_BIEN_BENH chi_tiet_dien_bien_benh = new CHI_TIET_DIEN_BIEN_BENH();
             chi_tiet_dien_bien_benh.MA_LK = currentRow.getCell(COLUMN_INDEX_MA_LK).getStringCellValue();
             chi_tiet_dien_bien_benh.STT = Integer.parseInt(fmt.formatCellValue(currentRow.getCell(COLUMN_INDEX_STT)));
@@ -53,11 +64,9 @@ public class XML5ImportExcel {
             chi_tiet_dien_bien_benh.THOI_DIEM_DBLS = currentRow.getCell(COLUMN_INDEX_THOI_DIEM_DBLS).getStringCellValue();
             chi_tiet_dien_bien_benh.NGUOI_THUC_HIEN = currentRow.getCell(COLUMN_INDEX_NGUOI_THUC_HIEN).getStringCellValue();
             chi_tiet_dien_bien_benh.DU_PHONG = currentRow.getCell(COLUMN_INDEX_DU_PHONG).getStringCellValue();
-
-            ds_chi_tiet_dien_bien_benh.add(chi_tiet_dien_bien_benh);
+            return chi_tiet_dien_bien_benh;
+        } catch (Exception e) {
+            throw new AppException("Đã có lỗi xảy ra khi truy xuất dữ liệu từ Excel bảng XML5 hàng thứ " + currentRow.getRowNum() + "\n" + e.toString() + ": " + e.getMessage(), e.getStackTrace());
         }
-
-        xml5.dsach_chi_tiet_dien_bien_benh.ds_chi_tiet_dien_bien_benh=ds_chi_tiet_dien_bien_benh;
-        return xml5;
     }
 }

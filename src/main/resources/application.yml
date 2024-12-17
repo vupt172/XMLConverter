@@ -1,0 +1,9 @@
+config:
+  app:
+    info: "PHẦN MỀM XML CONVERTER CHO GIÁM ĐỊNH BẢO HIỂM Y TẾ
+    \nTác giả : Phạm Tuấn Vũ
+    \nĐịa điểm : Bệnh viện Đa khoa khu vực Long Thành
+    \nEmail: vu.pt172@gmail.com
+    \nNgày phiên bản: 21/10/2024"
+    update: "Cập nhật:
+            \n - Hiển thị lỗi chi tiết khi xuất từ Excel sang XML"
